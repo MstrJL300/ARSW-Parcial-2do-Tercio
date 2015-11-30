@@ -1,0 +1,22 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 116 ciObject found
+ciMethod java/lang/String length ()I 3105 1 29604 0 0
+ciMethod java/lang/String charAt (I)C 4097 1 126085 0 128
+ciMethod java/lang/System arraycopy (Ljava/lang/Object;ILjava/lang/Object;II)V 5121 1 640 0 -1
+ciMethod java/lang/OutOfMemoryError <init> ()V 0 0 1 0 -1
+ciMethod java/io/OutputStream write ([BII)V 0 0 1 0 -1
+ciMethod java/util/Arrays copyOf ([BI)[B 2105 1 7995 0 -1
+ciMethodData java/lang/String charAt (I)C 2 126085 orig 264 184 126 195 106 0 0 0 0 56 61 198 7 0 0 0 0 120 1 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 41 84 15 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 8 0 4 0 1 0 80 0 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 10 0x10007 0x0 0x40 0x1ea85 0xa0007 0x1ea85 0x30 0x0 0x120002 0x0 oops 0
+ciMethodData java/lang/String length ()I 2 29604 orig 264 184 126 195 106 0 0 0 0 232 59 198 7 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 132 1 0 0 1 145 3 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 3 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod java/io/ByteArrayOutputStream ensureCapacity (I)V 2169 1 6664 0 0
+ciMethod java/io/ByteArrayOutputStream grow (I)V 25 1 154 0 0
+ciMethod java/io/ByteArrayOutputStream write ([BII)V 2401 1 1002 0 0
+ciMethod java/io/DataOutput write ([BII)V 0 0 1 0 -1
+ciMethod java/io/DataOutputStream incCount (I)V 4097 1 16858 0 0
+ciMethod java/io/DataOutputStream write ([BII)V 2785 1 1886 0 0
+ciMethod java/io/DataOutputStream writeUTF (Ljava/lang/String;Ljava/io/DataOutput;)I 1313 49665 876 0 -1
+ciMethodData java/io/ByteArrayOutputStream ensureCapacity (I)V 2 6664 orig 264 184 126 195 106 0 0 0 0 8 54 235 7 0 0 0 0 88 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 15 1 0 0 201 199 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 3 0 1 0 48 0 0 0 255 255 255 255 7 0 7 0 0 0 0 0 data 6 0x70007 0x1886 0x30 0x73 0xc0002 0x73 oops 0
+ciMethodData java/io/ByteArrayOutputStream grow (I)V 1 154 orig 264 184 126 195 106 0 0 0 0 208 54 235 7 0 0 0 0 208 1 0 0 96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 185 4 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 1 0 128 0 0 0 255 255 255 255 7 0 13 0 0 0 0 0 data 16 0xd0007 0x97 0x20 0x0 0x130007 0x97 0x50 0x0 0x170007 0x0 0x30 0x0 0x1e0002 0x0 0x2b0002 0x97 oops 0
+ciMethodData java/io/DataOutputStream incCount (I)V 2 16858 orig 264 184 126 195 106 0 0 0 0 8 37 5 8 0 0 0 0 72 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
